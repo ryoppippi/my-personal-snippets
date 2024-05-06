@@ -1,7 +1,9 @@
 [increment]
 prefix = "+="
 body = "$1 = $1 + $0"
+description = "Increment by value"
 
 [decrement]
 prefix = "-="
 body = "$1 = $1 - $0"
+description = "Decrement by value"
