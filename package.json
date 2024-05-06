@@ -13,6 +13,10 @@
       {
         "language": "cpp",
         "path": "./snippets/cpp.json"
+      },
+      {
+        "language": "lua",
+        "path": "./snippets/lua.toml"
       }
     ]
   }
