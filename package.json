@@ -21,6 +21,10 @@
       {
         "language": "toml",
         "path": "./snippets/toml.toml"
+      },
+      {
+        "language": "typescript",
+        "path": "./snippets/typescript.toml"
       }
     ]
   }
