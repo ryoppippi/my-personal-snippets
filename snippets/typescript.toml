@@ -1,0 +1,5 @@
+["as const satisfies"]
+prefix = "acs"
+body = "as const satisfies $0"
+description = "as const satisfies"
+
