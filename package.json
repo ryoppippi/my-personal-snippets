@@ -17,6 +17,10 @@
       {
         "language": "lua",
         "path": "./snippets/lua.toml"
+      },
+      {
+        "language": "toml",
+        "path": "./snippets/toml.toml"
       }
     ]
   }

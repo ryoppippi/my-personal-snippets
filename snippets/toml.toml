@@ -1,0 +1,8 @@
+[snippet]
+prefix = "snippet"
+body = """
+[${2:$1}]
+prefix = "$1"
+body = $0
+description = "$2"
+"""
