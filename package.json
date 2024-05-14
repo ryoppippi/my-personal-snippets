@@ -23,7 +23,14 @@
         "path": "./snippets/toml.toml"
       },
       {
-        "language": "typescript",
+        "language": [
+          "typescript",
+          "typescriptreact",
+          "svelte",
+          "astro",
+          "typescript.tsx",
+          "vue"
+        ],
         "path": "./snippets/typescript.toml"
       }
     ]
