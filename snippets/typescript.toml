@@ -3,3 +3,7 @@ prefix = "acs"
 body = "as const satisfies $0"
 description = "as const satisfies"
 
+["import"]
+prefix = "imp"
+body = "import { $0 } from '$1';"
+description = "import"
