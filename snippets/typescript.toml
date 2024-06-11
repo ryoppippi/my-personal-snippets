@@ -4,7 +4,7 @@ body = "as const satisfies $0"
 description = "as const satisfies"
 
 ["import"]
-prefix = "imp"
+prefix = "im"
 body = "import {$0} from '$1';"
 description = "import"
 
@@ -13,7 +13,18 @@ prefix = "ima"
 body = "import * as ${0:M} from '$1';"
 description = "import all"
 
+["import type"]
+prefix = "imt"
+body = "import type {$0} from '$1';"
+description = "import type"
+
+["import default"]
+prefix = "imd"
+body = "import ${0:M} from '$1';"
+description = "import default"
+
 ["import jsr"]
 prefix = "imj"
 body = "import * as ${0:M} from 'jsr:$1';"
 description = "import jsr"
+
