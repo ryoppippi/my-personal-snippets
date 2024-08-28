@@ -1,3 +1,8 @@
+["as const"]
+prefix = "ac"
+body = "as const $0"
+description = "as const"
+
 ["as const satisfies"]
 prefix = "acs"
 body = "as const satisfies $0"
