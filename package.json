@@ -32,6 +32,11 @@
           "vue"
         ],
         "path": "./snippets/typescript.toml"
+      },
+      {
+        "language": "svelte",
+        "path": "./snippets/svelte.toml"
+      },
       }
     ]
   }

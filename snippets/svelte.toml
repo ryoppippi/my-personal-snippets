@@ -1,0 +1,27 @@
+["data props"]
+prefix = "dprops"
+body = "const { data } = \\$props()" 
+description = "data props in SvelteKit + Svelte5"
+
+["sveltekit page script"]
+prefix = "skpagescript"
+body = """
+<script lang='ts'>
+
+  const { data } = \\$props();
+
+  $0
+</script>
+"""
+description="script tag for SvelteKit page"
+
+
+["ts script tag"]
+prefix = "tsscript"
+body = """
+<script lang='ts'>
+  $0
+</script>
+"""
+description="script tag for Svelte"
+

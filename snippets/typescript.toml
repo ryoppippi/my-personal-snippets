@@ -33,3 +33,12 @@ prefix = "imj"
 body = "import * as ${0:M} from 'jsr:$1';"
 description = "import jsr"
 
+["skload"]
+prefix = "skload"
+body = """
+export function load() {
+	return {
+$0
+	};
+}
+"""
