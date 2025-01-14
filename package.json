@@ -37,6 +37,14 @@
         "language": "svelte",
         "path": "./snippets/svelte.toml"
       },
+      {
+        "language": [
+          "jsx",
+          "tsx",
+          "javascriptreact",
+          "typescriptreact"
+        ],
+        "path": "./snippets/jsx.toml"
       }
     ]
   }
